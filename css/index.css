@@ -1,0 +1,421 @@
+.neo-body {}
+
+#sharelink {
+    cursor: pointer;
+    user-select: none;
+}
+
+.logo-img {
+    width: 160px;
+    /*height: 120px;*/
+    margin-top: 20px;
+}
+
+.neo-body .neo-content {
+    height: 100%;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.neo-body .neo-content .left-content .card .card-img-top {
+    border: 1px solid #e3f2fd;
+}
+
+.neo-content form {
+    padding-bottom: 10px;
+}
+
+.neo-content form .form-group .col-form-value {
+    /* max-width: 50%; */
+    padding: 0;
+    margin: 0;
+}
+
+.neo-body .neo-content .left-content .card-body .demo-btn {
+    text-align: center;
+}
+
+.neo-body .neo-content .left-content .card-body .lxr-form {
+    margin-top: 10%;
+}
+
+.right-content .card {
+    border: 1px solid #2db7f5;
+}
+
+.right-content .card .card-img-top {
+    cursor: zoom-in;
+    height: calc(100% - 34px);
+}
+
+.right-content .card .card-footer-btn {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    height: 34px;
+    width: 100%;
+    background: #fff;
+    font-size: 14px;
+}
+
+.right-content .card .card-footer-btn .left-btn {
+    padding: 5px 10px;
+    text-align: center;
+    flex: 2;
+    border-top: 1px solid #2db7f5;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.right-content .card .card-footer-btn .right-btn {
+    padding: 5px 10px;
+    text-align: center;
+    flex: 2;
+    border-top: 1px solid #2db7f5;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.right-content .last-card-deck .card {
+    display: none;
+}
+
+.right-content .last-card-deck .card:first-child {
+    display: flex;
+}
+
+
+
+#imageModal .modal-header .close {
+    padding: 0;
+    padding: 10px;
+}
+
+#imageModal .modal-header .close:focus {
+    outline: none;
+}
+
+#imageModal .modal-header {
+    border-bottom: none;
+}
+
+
+
+@media (max-width: 575.98px) {
+    .left-content {
+        padding: 0 13px 0 0;
+    }
+
+    .right-content {
+        display: block;
+        width: 100%;
+        max-width: 97%;
+        flex: none;
+        padding: 0;
+        margin: 0;
+
+        margin-top: 10px;
+    }
+
+    /* card title */
+    .right-content .bedroom-2-title,
+    .right-content .bedroom-3-title,
+    .right-content .bedroom-4-title {
+        color: #caa76f;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    /* card items */
+    .right-content .bedroom-2-cards,
+    .right-content .bedroom-3-cards,
+    .right-content .bedroom-4-cards {
+        margin-bottom: 15px;
+    }
+
+    .right-content .bedroom-2-cards .card,
+    .right-content .bedroom-3-cards .card,
+    .right-content .bedroom-4-cards .card {
+        width: 100%;
+        margin: 0;
+        user-select: none;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+    /* end */
+
+    .neo-content form .form-group .col-form-label {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .neo-content form .form-group .col-form-value {
+        max-width: 100%;
+        font-size: 14px;
+        padding: 0 15px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .left-content {
+        padding: 0 13px 0 0;
+    }
+
+    .right-content {
+        display: block;
+        width: 100%;
+        max-width: 97%;
+        flex: none;
+        padding: 0;
+        margin: 0;
+
+        margin-top: 10px;
+    }
+
+    /* card title */
+    .right-content .bedroom-2-title,
+    .right-content .bedroom-3-title,
+    .right-content .bedroom-4-title {
+        color: #caa76f;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    /* card items */
+    .right-content .bedroom-2-cards,
+    .right-content .bedroom-3-cards,
+    .right-content .bedroom-4-cards {
+        margin-bottom: 15px;
+    }
+
+    .right-content .bedroom-2-cards .card,
+    .right-content .bedroom-3-cards .card,
+    .right-content .bedroom-4-cards .card {
+        width: 100%;
+        margin: 0;
+        user-select: none;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+    /* end */
+
+    .neo-content form .form-group .col-form-label {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .neo-content form .form-group .col-form-value {
+        max-width: 100%;
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .left-content {
+        padding: 0 13px 0 0;
+    }
+
+    .right-content {
+        display: block;
+        width: 100%;
+        max-width: 97%;
+        flex: none;
+        padding: 0;
+        margin: 0;
+
+        margin-top: 10px;
+    }
+
+    /* card title */
+    .right-content .bedroom-2-title,
+    .right-content .bedroom-3-title,
+    .right-content .bedroom-4-title {
+        color: #caa76f;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    /* card items */
+    .right-content .bedroom-2-cards,
+    .right-content .bedroom-3-cards,
+    .right-content .bedroom-4-cards {
+        margin-bottom: 15px;
+    }
+
+    .right-content .bedroom-2-cards .card,
+    .right-content .bedroom-3-cards .card,
+    .right-content .bedroom-4-cards .card {
+        width: 100%;
+        margin: 0;
+        user-select: none;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+    /* end */
+
+
+    .neo-content form .form-group .col-form-label {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .neo-content form .form-group .col-form-value {
+        max-width: 100%;
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* card title */
+    .right-content .bedroom-2-title,
+    .right-content .bedroom-3-title,
+    .right-content .bedroom-4-title {
+        color: #caa76f;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    /* card items */
+    .right-content .bedroom-2-cards,
+    .right-content .bedroom-3-cards,
+    .right-content .bedroom-4-cards {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: flex-start;
+        align-content: flex-start;
+
+        margin-bottom: 15px;
+    }
+
+    .right-content .bedroom-2-cards .card,
+    .right-content .bedroom-3-cards .card,
+    .right-content .bedroom-4-cards .card {
+        width: calc(33% - 15px);
+        margin: 0;
+        margin-right: 15px;
+        user-select: none;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    /* end */
+
+    .neo-content form .form-group .col-form-label {
+        font-size: 14px;
+    }
+
+    .neo-content form .form-group .col-form-value {
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1365.98px) {
+
+    /* card title */
+    .right-content .bedroom-2-title,
+    .right-content .bedroom-3-title,
+    .right-content .bedroom-4-title {
+        color: #caa76f;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    /* card items */
+    .right-content .bedroom-2-cards,
+    .right-content .bedroom-3-cards,
+    .right-content .bedroom-4-cards {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: flex-start;
+        align-content: flex-start;
+
+        margin-bottom: 15px;
+    }
+
+    .right-content .bedroom-2-cards .card,
+    .right-content .bedroom-3-cards .card,
+    .right-content .bedroom-4-cards .card {
+        width: calc(33% - 15px);
+        margin: 0;
+        margin-right: 15px;
+        user-select: none;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    /* end */
+
+    .neo-content form .form-group .col-form-label {
+        font-size: 14px;
+    }
+
+    .neo-content form .form-group .col-form-value {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1366px) {
+
+    /* card title */
+    .right-content .bedroom-2-title,
+    .right-content .bedroom-3-title,
+    .right-content .bedroom-4-title {
+        color: #caa76f;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    /* card items */
+    .right-content .bedroom-2-cards,
+    .right-content .bedroom-3-cards,
+    .right-content .bedroom-4-cards {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: flex-start;
+        align-content: flex-start;
+
+        margin-bottom: 15px;
+    }
+
+    .right-content .bedroom-2-cards .card,
+    .right-content .bedroom-3-cards .card,
+    .right-content .bedroom-4-cards .card {
+        width: calc(33% - 15px);
+        margin: 0;
+        margin-right: 15px;
+        user-select: none;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    /* end */
+
+    .neo-content form .form-group .col-form-label {
+        font-size: 1rem;
+    }
+
+    .neo-content form .form-group .col-form-value {
+        font-size: 1rem;
+    }
+}
+
+.agent-info div{
+    font-size: 2rem !important;
+    font-weight: bold;
+    line-height: 40px;
+}
