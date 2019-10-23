@@ -3,7 +3,8 @@ $(function() {
 	var user_phone = getQueryVariable("phone");
 	var $ = jQuery.noConflict();
 	// 获取数据信息
-	$.ajax({
+	$
+			.ajax({
 				type : "GET",
 				dataType : "json",
 				url : "./json/userInfo.json",
@@ -15,7 +16,8 @@ $(function() {
 							$("#sharelink").attr("data-clipboard-text",
 									window.location.href);
 							$("#left-username").html(data.userInfo[i].name);
-							$("#left-phone").html("(65)"+data.userInfo[i].phone);
+							$("#left-phone").html(
+									"(65)" + data.userInfo[i].phone);
 							for (var j = 0; j < data.apartmentInfo.length; j++) {
 								var id = data.apartmentInfo[j].name;
 								var image = data.apartmentInfo[j].image;
@@ -80,9 +82,15 @@ $(function() {
 		var $ = jQuery.noConflict();
 		$('.right-content .card .right-btn').click(function() {
 			var url = $(this).attr('td-url');
-			window.location.href="https://"+url;
+			if (url != null && url != "") {
+				localStorage.string = url;
+				window.location.href = "./view.html";
+			} else {
+				alert("No Web Path");
+			}
+
 		});
-		
+
 		$('.right-content .card .card-img-top').click(function() {
 			var url = $(this).attr('src');
 			$('#modal-img').attr('src', url);
