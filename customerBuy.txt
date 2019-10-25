@@ -2,7 +2,7 @@
 JOYCE LEE   97543543   joashyoon@gmail.com                                                                           
 A1  https://www.720yuntu.com//tour/62f89510c3cb3eb0   
 A2 https://www.720yuntu.com//tour/6009034c4b8ad2fd                                           
-A3 https://www.720yuntu.com//tour/9e69a738a0f87fd                                                                      
+A3 https://www.720yuntu.com//tour/c9e69a738a0f87fd                                                                      
 A4  https://www.720yuntu.com//tour/372d2a0a96f98b15
 B  https://www.720yuntu.com//tour/0d5e98a5e4e995b6
 C  https://www.720yuntu.com//tour/af1272db941cf29f     
@@ -13,7 +13,8 @@ WILLIAM KOH     90271972     willkck@gmail.com
  A1     https://www.720yuntu.com//tour/188a5cd545040036                                          
  A2     https://www.720yuntu.com//tour/b30fc35934672dfa                                             
  A3     https://www.720yuntu.com//tour/06d14fce4bd0c9d6                                                
- A4     https://www.720yuntu.com//tour/fdd4c2c536216c99                                                        B       https://www.720yuntu.com//tour/0668c24e0c39d095                                                    
+ A4     https://www.720yuntu.com//tour/fdd4c2c536216c99                                                        
+ B       https://www.720yuntu.com//tour/0668c24e0c39d095                                                    
  C       https://www.720yuntu.com//tour/371eb8cbed91a701
 
  HONG CHUAH    88180800     tohhongchuah@gmail.com                                          
@@ -38,7 +39,8 @@ WILLIAM KOH     90271972     willkck@gmail.com
    A2    https://www.720yuntu.com//tour/7a7ef8278e6e8280                                                
    A3    https://www.720yuntu.com//tour/e7e7a2447063b6c9                                               
    A4    https://www.720yuntu.com//tour/7957a749f0fb49ee                                                  
-   B      https://www.720yuntu.com//tour/2bec91ed00c81928                                                             C      https://www.720yuntu.com//tour/03112ccf81c8c805
+   B      https://www.720yuntu.com//tour/2bec91ed00c81928                                                             
+   C      https://www.720yuntu.com//tour/03112ccf81c8c805
 
 
 
@@ -88,7 +90,8 @@ B     https://www.720yuntu.com//tour/8bd3a5b76eee51f7
   A2   https://www.720yuntu.com//tour/c5a91324609b1b47                                           
   A3   https://www.720yuntu.com//tour/0671d97f9bcfb040                                                 
   A4   https://www.720yuntu.com//tour/07c0f02180008b7c                                               
-  B     https://www.720yuntu.com//tour/7d6c03100ece54cf                                                          C     https://www.720yuntu.com//tour/70eecb2d666cd47d
+  B     https://www.720yuntu.com//tour/7d6c03100ece54cf                                                          
+  C     https://www.720yuntu.com//tour/70eecb2d666cd47d
 
   NICK CHAH    91543444    nickchah@yahoo.com.sg                                                   
   A1   https://www.720yuntu.com//tour/7cdaec5f7a74cf47                                             
