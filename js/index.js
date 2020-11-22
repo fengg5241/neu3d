@@ -10,20 +10,25 @@ $(function() {
 				url : "./json/userInfo.json",
 				success : function(data) {
 					for (var i = 0; i < data.userInfo.length; i++) {
-						if (data.userInfo[i].phone == user_phone) {
+						let user = data.userInfo[i];
+						if (user.phone == user_phone) {
 							$("#wel_name").html(
-									"Welcome," + data.userInfo[i].name);
+									"Welcome," + user.name);
 							$("#sharelink").attr("data-clipboard-text",
 									window.location.href);
-							$("#left-username").html(data.userInfo[i].name);
+							$("#left-username").html(user.name);
 							$("#left-phone").html(
-									"(65)" + data.userInfo[i].phone);
+									"(65)" + user.phone);
+							var userBuyApartment = user.apartmentInfo;
 							for (var j = 0; j < data.apartmentInfo.length; j++) {
-								var id = data.apartmentInfo[j].name;
-								var image = data.apartmentInfo[j].image;
-								var image_large = data.apartmentInfo[j].image_large;
-								var td_url = data.apartmentInfo[j].td_url;
-								var b_num = data.apartmentInfo[j].type;
+								var apartment = data.apartmentInfo[j];
+								var id = apartment.id;
+								var image = apartment.image;
+								var image_large = apartment.image_large;
+								// var td_url = apartment.td_url;
+								var td_url = userBuyApartment[id] ? userBuyApartment[id] : apartment.td_url;
+
+								var b_num = apartment.type;
 								var str = "<div class='card shadow-sm'><img class='card-img-top' src='"
 										+ image
 										+ "' alt='layout image'>"
